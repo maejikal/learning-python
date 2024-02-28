@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><title>Information</title></head>
+<body>
+<table>
+<tr>
+<th>StaffID</th>
+<th>FullName</th>
+<th>Rank</th>
+</tr>
+{% for i in range(data|length) %}
+<tr>
+<td>{{data[i][0]}}</td>
+<td>{{data[i][1]}}</td>
+<td>{{data[i][2]}}</td>
+</tr>
+{% endfor %}
+</table>
+</body>
+</html>
+

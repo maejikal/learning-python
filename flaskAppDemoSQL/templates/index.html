@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head><title>Display information</title></head>
+<body>
+<p>Choose an option</p>
+<form action='{{url_for("show")}}' method='POST'>
+All Staff <button type='submit' name='option' value='AS'> Go </button> <br>
+Managers <button type='submit' name='option' value='M'> Go </button> <br>
+Clerks <button type='submit' name='option' value='C'> Go </button> <br>
+Assistants <button type='submit' name='option' value='A'> Go </button> 
+</form>
+</body>
+</html>
